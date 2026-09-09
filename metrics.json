@@ -1,0 +1,45 @@
+{
+  "best_model": "Gradient Boosting",
+  "results": {
+    "Linear Regression": {
+      "MAE": 1542755.3,
+      "RMSE": 2161044.63,
+      "R2": 0.9167,
+      "CV_R2_mean": 0.9024,
+      "train_seconds": 0.08
+    },
+    "Decision Tree": {
+      "MAE": 1106817.08,
+      "RMSE": 1627374.8,
+      "R2": 0.9528,
+      "CV_R2_mean": 0.9448,
+      "train_seconds": 0.08
+    },
+    "Random Forest": {
+      "MAE": 913471.6,
+      "RMSE": 1291559.97,
+      "R2": 0.9702,
+      "CV_R2_mean": 0.9664,
+      "train_seconds": 7.93
+    },
+    "Gradient Boosting": {
+      "MAE": 868810.62,
+      "RMSE": 1205682.2,
+      "R2": 0.9741,
+      "CV_R2_mean": 0.9673,
+      "train_seconds": 0.92
+    }
+  },
+  "n_rows_after_cleaning": 1995,
+  "test_size": 0.2,
+  "features": [
+    "Area",
+    "Bedrooms",
+    "Bathrooms",
+    "Floors",
+    "Parking",
+    "Age",
+    "Location"
+  ],
+  "target": "Price"
+}
