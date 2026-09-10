@@ -177,20 +177,3 @@ The app validates every field before predicting:
 
 ---
 
-## Interview / Hackathon Summary
-
-> "I built a House Price Predictor using supervised machine learning
-> regression. The model learns from historical housing data — area,
-> bedrooms, bathrooms, parking, age, and location — to estimate prices for
-> new properties. I cleaned the data, ran exploratory analysis, built a
-> `ColumnTransformer`-based preprocessing pipeline to handle numeric scaling
-> and categorical encoding without leakage, then compared four regression
-> algorithms (Linear Regression, Decision Tree, Random Forest, Gradient
-> Boosting) using MAE, RMSE, R², and 5-fold cross-validation. Gradient
-> Boosting performed best with an R² of 0.974, and I deployed it behind a
-> Streamlit interface with input validation and a live model-comparison
-> dashboard."
-
----
-
-*Educational AI/ML portfolio project. Predictions are estimates only.*
